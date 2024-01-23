@@ -1,0 +1,115 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(pic2.jpg);
+    color: #fff; /* Light text color */
+}
+
+.logo {
+    margin-top: 30px;
+}
+
+.logo img {
+    width: 200px; /* Adjust the width based on your logo size */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.726); /* Dark container background color with some transparency */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+h1 {
+    color: #f20707; /* Green color for the heading */
+}
+
+
+
+
+div {
+    margin: 15px 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #bbb; /* Light color for labels */
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    border: 4px solid #555; /* Dark border color */
+    border-radius: 5px;
+    background-color: #444; /* Dark input background color */
+    color: #fff; /* Light text color */
+    transition: border-color 0.3s;
+}
+
+input:hover, input:focus {
+    border-color: #f50303;
+}
+
+button {
+    background-color: #f70808;
+    color: #fff;
+    padding: 14px 24px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #000000;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid #555; 
+    border-radius: 5px;
+    background-color: #444; 
+}
+
+.dark-mode {
+    background-color: #111; 
+    color: #bbb; 
+}
+
+.dark-mode input {
+    background-color: #222; 
+    border-color: #444; 
+}
+
+.dark-mode button {
+    background-color: #444; 
+}
+
+.mode-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: #000000; 
+}
+
+.mode-toggle img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
